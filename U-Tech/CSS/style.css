@@ -1,0 +1,639 @@
+.wholebody {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(197, 215, 248);
+}
+
+.navbar {
+    display: flex;
+    height: 100px;
+}
+
+.rightnav {
+    text-align: center;
+    display: flex;
+    width: 39%;
+}
+
+.leftnav {
+    width: 61%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.firlogo {
+    width: 250px;
+    margin-top: 18px;
+    margin-left: 60px;
+}
+
+.seclogo {
+    width: 200px;
+    margin: 2px;
+}
+
+.loc {
+    margin: 2px;
+    padding: 15px;
+    display: inline;
+    width: 450px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.map {
+    text-decoration: none;
+}
+
+.collink {
+    text-decoration: none;
+}
+
+.search {
+    margin: 2px;
+    margin-top: 20px;
+}
+
+.srchicon {
+    display: flex;
+}
+
+.fa-search {
+    font-size: 25px;
+}
+
+.srch {
+    margin: 0;
+    width: 200px;
+    height: 35px;
+}
+
+.email {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.secnavbar {
+    display: flex;
+    background-color: rgb(250, 82, 82);
+    height: 70px;
+}
+
+.navlist {
+    display: flex;
+    list-style: none;
+}
+
+.firli {
+    margin-right: 20px;
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    width: 170px;
+    text-align: center;
+}
+
+.firli:hover {
+    border-radius: 20px;
+    width: 190px;
+    background-color: white;
+    height: 40px;
+    font-weight: 550;
+    margin-bottom: 3px;
+    color: rgb(46, 78, 223);
+}
+
+.phts {
+    display: flex;
+    height: 70vh;
+    width: 30%;
+    margin-left: 48vh;
+}
+
+.collphts {
+    width: 100vh;
+    height: 65vh;
+    text-align: center;
+    margin: 2px;
+    padding: 5px;
+}
+
+.coltext {
+    height: 110px;
+    text-align: center;
+}
+
+.build {
+    margin: 0;
+    color: black;
+    font-size: 24px;
+}
+
+.educat {
+    margin: 2px;
+    font-size: 19px;
+    color: black;
+}
+
+.apply {
+    background-color: rgb(255, 43, 43);
+    height: 40px;
+    width: 100px;
+    font-size: 17px;
+    font-weight: 250px;
+    color: white;
+    border: 1px solid red;
+    border-radius: 3px;
+    margin: 2px;
+}
+
+.apply:hover {
+    height: 45px;
+    width: 110px;
+    background-color: rgb(250, 4, 4);
+}
+
+.learn {
+    background-color: rgb(250, 241, 241);
+    height: 40px;
+    width: 120px;
+    font-weight: 250px;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin: 2px;
+    font-size: 17px;
+}
+
+.learn:hover {
+    height: 45px;
+    width: 130px;
+    background-color: rgb(228, 218, 218);
+}
+
+.colstuffs {
+    border: 1px solid red;
+    height: 250px;
+    background-color: rgb(243, 131, 131);
+    display: flex;
+    align-items: center;
+}
+
+.collegestuffs {
+    border: 1px solid white;
+    border-radius: 15px;
+    height: 150px;
+    width: 160px;
+    margin-left: 40px;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.fa-graduation-cap {
+    font-size: 90px;
+    color: white;
+}
+
+.fa-pencil-alt {
+    font-size: 90px;
+    color: white;
+}
+
+.fa-star {
+    font-size: 90px;
+    color: white;
+}
+
+.fa-home {
+    font-size: 90px;
+    color: white;
+}
+
+.fa-youtube {
+    font-size: 90px;
+    color: white;
+}
+
+.fa-book {
+    font-size: 90px;
+    color: white;
+}
+
+.collegestuffsicons {
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 100px;
+    background-color: rgb(94, 112, 194);
+}
+
+.collegestuffs:hover {
+    border: 3px solid white;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    height: 160px;
+    width: 170px;
+}
+
+.collegestuffstexts {
+    font-size: 20px;
+}
+
+.programmes {
+    height: 800px;
+    cursor: pointer;
+    height: 128vh;
+}
+
+.ourprog {
+    height: 40px;
+    width: 400px;
+    margin-left: 33%;
+    text-align: center;
+    font-size: 27px;
+}
+
+.ourprog:hover {
+    background-color: white;
+    font-size: 30px;
+    font-weight: bold;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    color: rgb(50, 90, 177);
+}
+
+.firbecolumn {
+    display: flex;
+    height: 60vh;
+}
+
+.secbecolumn {
+    display: flex;
+    height: 60vh;
+}
+
+.be {
+    width: 31%;
+    height: 55vh;
+    margin: 3px;
+    margin-left: 120px;
+    margin-right: 40px;
+    border: 1px solid rgb(160, 192, 250);
+    border-radius: 25px;
+}
+
+.be:hover {
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 25px;
+    height: 57vh;
+    margin-bottom: 7px;
+}
+
+.becontent {
+    display: flex;
+}
+
+.beimg {
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 53vh;
+    width: 270px;
+}
+
+.betexts {
+    font-size: 22px;
+    margin: 8px;
+    margin-top: 37vh;
+}
+
+.ne {
+    display: flex;
+    height: 84vh;
+}
+
+.neleftrow {
+    width: 50%;
+}
+
+.nerightrow {
+    width: 50%;
+}
+
+.netopic {
+    text-align: center;
+    font-size: 24px;
+    height: 35px;
+    background-color: rgb(235, 235, 172);
+}
+
+.nenoticelists {
+    list-style: none;
+    font-size: 16px;
+    margin: 2px;
+    padding: 3px;
+}
+
+.nenoticelists:hover {
+    background-color: white;
+}
+
+.neeventspulogo {
+    display: flex;
+    height: 100px;
+}
+
+.neeventspulogo:hover {
+    background-color: white;
+}
+
+.neeventspulogoleft {
+    width: 20%;
+    margin: 5px;
+}
+
+.neeventspulogoright {
+    width: 80%;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.neeventspulogolnk {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.neeventspulogoimg {
+    width: 100px;
+    border-radius: 30%;
+}
+
+.neeventsresearch {
+    height: 55px;
+    font-size: 14px;
+    margin: 2px;
+}
+
+.neeventsresearch:hover {
+    background-color: white;
+}
+
+.neeventsresearchlnk {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.neeventsmissiontopic {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.neeventsmissiondetails {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.neeventsmissionlists {
+    margin: 5px;
+}
+
+.neeventsread {
+    font-size: 15px;
+    text-decoration: none;
+    color: red;
+}
+
+.neeventsread:hover {
+    background-color: white;
+}
+
+.neeventsmissionnotice {
+    font-size: 25px;
+    margin: 3px;
+    color: black;
+}
+
+.neeventsmissionnotice:hover {
+    background-color: white;
+}
+
+.speechhead {
+    text-align: center;
+    font-size: 29px;
+    color: rgb(32, 32, 110);
+    font-weight: 600;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.speech {
+    height: 368vh;
+}
+
+.thespeakerspeech {
+    margin-left: 20%;
+    display: flex;
+}
+
+.speakerimg {
+    margin-top: 10%;
+    height: 80vh;
+    border-radius: 30px;
+}
+
+.speechspeech {
+    border: 3px solid rgb(138, 173, 226);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: -13%;
+    width: 380px;
+    height: 67vh;
+    margin-top: 10%;
+    border-radius: 30px;
+    font-size: 14px;
+}
+
+.speakerintro {
+    margin-left: 15px;
+    font-size: 22px;
+    font-weight: 550;
+    color: rgb(48, 48, 49);
+}
+
+.thewholespeech {
+    margin: 20px;
+    font-size: 15px;
+    margin-top: -2px;
+    margin-bottom: -1px;
+}
+
+.thespeechread {
+    padding: 2px;
+    font-size: 16px;
+    border: 2px solid rgb(82, 81, 81);
+    border-radius: 30px;
+    color: black;
+    width: 84px;
+    margin-left: 25px;
+}
+
+.thespeechreadm {
+    text-decoration: none;
+}
+
+.utecstudentsvoice {
+    height: 45vh;
+    background-color: white;
+}
+
+.utecstudentsvoicetopic {
+    font-size: 29px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 600;
+    cursor: pointer;
+    height: 10vh;
+}
+
+.utecstudentsvoices {
+    display: flex;
+}
+
+.utecstudentssay {
+    width: 50%;
+    display: flex;
+}
+
+.utecstudentssayimg {
+    border-radius: 10px;
+    margin: 3px;
+}
+
+.utecstudentssayings {
+    margin: 5px;
+    padding: 10px;
+}
+
+.utecstudentsintro {
+    font-size: 16px;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+.utecstudentsread {
+    padding: 2px;
+    font-size: 16px;
+    border: 2px solid rgb(82, 81, 81);
+    border-radius: 30px;
+    color: black;
+    width: 84px;
+    margin-left: 25px;
+}
+
+.utecstudentsreadm {
+    text-decoration: none;
+}
+
+.uteclabshead {
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 40px;
+    height: 5vh;
+}
+
+.uteclabshead:hover {
+    background-color: rgb(140, 155, 204);
+    border: 1 px solid white;
+    width: 200px;
+    cursor: pointer;
+}
+
+.uteclabslist {
+    display: flex;
+}
+
+.labslist {
+    list-style: none;
+}
+
+.utecenglabs {
+    height: 30vh;
+    margin: 2px;
+}
+
+.utecfooter {
+    display: flex;
+    background-color: black;
+    color: rgb(183, 182, 214);
+    height: 30vh;
+}
+
+.utecnewscon {
+    padding: 15px;
+    width: 50%;
+    font-size: 16px;
+    font-style: Italic;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.utecnewsconhead {
+    font-size: 18px;
+    width: 40vh;
+    margin: 3px;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.utecnewsletterhead:hover {
+    cursor: pointer;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.utecnewslettermail {
+    height: 35px;
+    width: 45vh;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.utecnewslettersubs {
+    font-size: 20px;
+    height: 40px;
+    width: 20vh;
+    border-radius: 5px;
+    background-color: rgb(255, 43, 43);
+    color: white;
+}
+
+.utecnewslettersubs:hover {
+    background-color: rgb(250, 4, 4);
+}
+
+.utecconnect {
+    height: 15vh;
+    text-align: center;
+    background-color: rgb(24, 24, 24);
+}
+
+.fa-facebook {
+    color: rgb(40, 81, 218);
+    font-size: 8vh;
+    margin: 3px;
+}
+
+.fa-google-plus {
+    color: rgb(206, 29, 29);
+    font-size: 8vh;
+    margin: 3px;
+}
+
+.utecconnecttext {
+    color: white;
+}
